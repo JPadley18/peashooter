@@ -40,7 +40,15 @@ You will also need a soldering iron to assemble the solar circuit.
 
 You will need to now assemble the components into a circuit. Use the circuit diagram below to help put your device together.
 
+![Circuit Diagram](documentation/CircuitDiagram.png)
 
+**Be sure** to check that each of the positive, negative data lines are connected to the correct components by checking markings on each component. In case the diagram is unclear, these are the connections that need to be made from each of the components to the Arduino board:
+
+| Component            | Data Line Output  | Data Line Board Input Pin |
+| :------------------- | :---------------: | :-----------------------: |
+| DHT11                |      `DATA`       |           `A3`            |
+| LDR Photoresistor    | Negative Terminal |           `A2`            |
+| Soil Moisture Sensor |       `AO`        |           `A1`            |
 
 Here is a picture of a fully assembled sensor device:
 
