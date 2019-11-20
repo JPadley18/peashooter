@@ -42,6 +42,10 @@ You will need to now assemble the components into a circuit. Use the circuit dia
 
 
 
+Here is a picture of a fully assembled sensor device:
+
+![Photo of Sensor Device](documentation/sensor_photo.jpg)
+
 ## Software
 
 ### Libraries
@@ -68,3 +72,6 @@ Next, select your board in the list of available boards. If it is not there, cli
 
 Now that you have set up the Arduino board, you can upload the sketch from this repository to the board from the Arduino IDE.  Once the sketch is uploaded, the Arduino will start to transmit data every five minutes whenever it is powered on.
 
+## Solar Power
+
+If you want to add solar power to your project to make it fully autonomous, follow the guide [here]( https://www.instructables.com/id/SOLAR-POWERED-ARDUINO-WEATHER-STATION/ ) to make your solar circuit out of the components listed earlier. Once you have USB power supplied by your solar circuit, you can connect a Micro USB cable to the powered USB output in order to power your Arduino.
